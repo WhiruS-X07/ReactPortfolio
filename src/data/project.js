@@ -1,7 +1,7 @@
 import campusHub from "../assets/ProjectImg/campusHub.png";
 import rhythmix from "../assets/ProjectImg/rhythmix.png";
 import portfolio from "../assets/ProjectImg/portfolio.png";
-import snapSorter from "../assets/ProjectImg/snapSorter.png";
+import snapSorter from "../assets/ProjectImg/snapsorter.png";
 import whyverse from "../assets/ProjectImg/whyverse.png";
 
 export const projects = [
