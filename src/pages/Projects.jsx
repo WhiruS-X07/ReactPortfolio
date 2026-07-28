@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ProjectCard from "../components/project/ProjectCard";
+import ProjectCard from "../components/Project/ProjectCard";
 import { projects } from "../data/project";
 
 const Projects = () => {
