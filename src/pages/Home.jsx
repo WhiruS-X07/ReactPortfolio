@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 import { TypeAnimation } from "react-type-animation";
 import { ArrowRight, Download } from "lucide-react";
 
@@ -64,8 +65,8 @@ const Home = () => {
 
           {/* Buttons */}
           <div className="mt-12 flex flex-wrap justify-center gap-5 lg:justify-start">
-            <a
-              href="#projects"
+            <Link
+              to="/projects"
               className="group inline-flex items-center gap-3 rounded-full bg-red-600 px-8 py-4 font-semibold text-white transition-all duration-300 hover:bg-red-500 hover:shadow-[0_0_35px_rgba(220,38,38,.35)]"
             >
               View Projects
@@ -73,7 +74,7 @@ const Home = () => {
                 size={18}
                 className="transition-transform group-hover:translate-x-1"
               />
-            </a>
+            </Link>
 
             <a
               href="/Resume.pdf"
