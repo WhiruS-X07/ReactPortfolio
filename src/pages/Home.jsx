@@ -13,7 +13,7 @@ const Home = () => {
       {/* Right Glow */}
       <div className="absolute right-0 bottom-0 h-[450px] w-[450px] rounded-full bg-red-600/20 blur-[140px] md:h-[550px] md:w-[550px]" />
 
-      <div className="relative z-20 mx-auto flex h-screen max-w-7xl flex-col items-center px-6 pt-24 lg:flex-row lg:justify-between lg:gap-12">
+      <div className="relative z-20 mx-auto flex min-h-screen max-w-7xl flex-col items-center px-6 pt-24 lg:flex-row lg:justify-between lg:gap-12">
         {/* ================= LEFT ================= */}
         <motion.div
           initial={{ opacity: 0, x: -40 }}

@@ -80,7 +80,7 @@ Add screenshots or GIFs of your portfolio here.
 
 ## 🌐 Live Demo
 
-**Live Site:** https://your-portfolio-link.com
+**Live Site:** https://whirus-portfolio.vercel.app/
 
 ## 📧 Contact
 
